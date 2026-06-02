@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/itnaked-downloader",
+  "serply_link": "https://serp.ly/itnaked-downloader",
+  "app_name": "Itnaked Video Downloader",
+  "short_description": "Download & Save Itnaked Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Itnaked Downloader is a browser extension built specifically around the direct /views/ / route on ItNaked. Instead of claiming broad coverage across every page type, this tool focuses on the relay-page flow where an embedded iframe hands playback to a media surface. When that handoff reveals an m3u8 playlist or direct mp4 file, you can capture it with a single click.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/itnaked-downloader-fullscreen-01-2b77d9f8e9.webp",
+    "https://apps.serp.co/media/optimized-products/itnaked-downloader-fullscreen-02-97769b4893.webp",
+    "https://apps.serp.co/media/optimized-products/itnaked-downloader-fullscreen-03-8807ca14ae.webp",
+    "https://apps.serp.co/media/optimized-products/itnaked-downloader-fullscreen-04-4c65181c65.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What makes this different from other video downloaders?",
+      "answer": "This extension is built specifically around Itnaked's /views/ / page structure and embedded relay behavior. It does not make broad claims about working on every page type and focuses on the specific flow where media becomes visible through an iframe handoff."
+    },
+    {
+      "question": "What formats can I download?",
+      "answer": "The extension detects both m3u8 playlists and direct mp4 sources when they are exposed through the page relay. Output files are saved in MP4 format for broad compatibility."
+    },
+    {
+      "question": "Do I need an account to use the extension?",
+      "answer": "You can test the extension with 3 free downloads using email verification. Unlimited downloads require a paid license, but no credit card is needed for the trial."
+    },
+    {
+      "question": "Why does the extension need page playback to start?",
+      "answer": "The media source only becomes visible after the embedded relay handoff completes, which typically requires playback to begin. The extension waits for this signal before scanning for available sources."
+    },
+    {
+      "question": "Is the extension safe to use?",
+      "answer": "The extension operates with standard browser permissions and only accesses the specific Itnaked pages you visit. It does not collect unnecessary data or interact with unrelated websites."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Check that your browser allows downloads from the extension. Some browsers may block automatic downloads or require permission for new download sources."
+    },
+    {
+      "name": "",
+      "description": "The extension operates with standard browser permissions and only accesses the specific Itnaked pages you visit. It does not collect unnecessary data or interact with unrelated websites."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Focused on ItNaked /views/ / pages for targeted media detection",
+    "Detects media surfaced through embedded iframe relay handoffs",
+    "Supports both m3u8 playlist and direct mp4 source formats",
+    "Fast, private, one-click download workflow",
+    "Verified target with realistic expectations about extraction behavior",
+    "Direct focus on ItNaked /views/ / pages for precise media detection",
+    "Relay-page awareness that accounts for embedded iframe handoff behavior",
+    "Detection of both m3u8 playlist and direct mp4 source formats",
+    "One-click download initiation after media source is identified",
+    "Fast scanning that respects the page loading sequence",
+    "Private download process without unnecessary data collection",
+    "Clean popup interface showing detected media options",
+    "Compatible with standard browser download management"
+  ],
+  "content": {
+    "why": [
+      "Most video downloaders treat every website the same way, assuming a uniform page structure and predictable media placement. Itnaked does not follow that pattern. Its /views/ pages use a lightweight relay approach where an embedded iframe hands playback to an external surface, and the media source only becomes visible after that handoff completes. Generic tools often miss this behavior entirely.",
+      "Itnaked Downloader was built with this specific page flow in mind. Rather than scanning the entire page for video elements, it waits for the relay to finish and then checks for the exposed m3u8 or mp4 source. This targeted approach means you get results when media is actually available, without false positives or wasted attempts on pages that do not contain downloadable content."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Itnaked and go to a supported /views/ / page.",
+      "Start playback so the extension can detect the media through the embedded relay.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to an Itnaked page that uses the /views/ / route pattern in the address bar.",
+      "Let the page load completely, including any embedded iframe or player handoff.",
+      "Start video playback so the media source becomes visible to the detection system.",
+      "Click the extension icon in your browser toolbar to open the downloader popup.",
+      "Wait while the extension scans the page for available media sources.",
+      "Review any detected m3u8 or mp4 options listed in the popup interface.",
+      "Select your preferred quality or format option if multiple choices appear.",
+      "Click the download button and save the resulting MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and direct mp4 sources surfaced through Itnaked relay pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who frequently visit Itnaked /views/ pages and want to save media locally",
+      "Users who prefer targeted download tools over generic all-purpose extractors",
+      "Individuals who understand the relay-page behavior and want a tool built for it",
+      "Anyone looking for a private, one-click download experience without unnecessary complexity"
+    ],
+    "use_cases": [
+      "Saving a specific video from an Itnaked view page for offline viewing",
+      "Archiving content accessed through the /views/ / route pattern",
+      "Collecting media that appears after the embedded iframe handoff completes",
+      "Avoiding repetitive streaming by keeping local copies of frequently accessed content",
+      "Building a personal library of Itnaked media without relying on third-party services"
+    ],
+    "troubleshooting": [
+      "No media detected on the page Make sure you are on a valid Itnaked /views/ / page and that video playback has started. The extension needs the relay handoff to complete before it can identify the media source.",
+      "The download does not start Check that your browser allows downloads from the extension. Some browsers may block automatic downloads or require permission for new download sources.",
+      "The popup shows no options Refresh the page and try again. Occasionally the relay handoff may not complete on the first load, and a fresh page load can resolve this.",
+      "The downloaded file will not play Ensure the file downloaded completely. Partial downloads can result from interruptions. Try downloading again with a stable internet connection.",
+      "The extension icon is grayed out The extension may not be activated on the current page. Verify you are on a supported Itnaked URL and that the extension is enabled in your browser settings."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Itnaked page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "This extension is built around Itnaked's /views/ / page pattern and may not work on other page types",
+      "Media detection depends on the embedded relay handoff completing successfully"
+    ],
+    "about": [
+      "Itnaked is a content platform that uses a lean page structure with embedded relay handoffs for media playback. Itnaked Downloader provides a focused tool for saving media from these specific view pages without overpromising on broader site coverage."
+    ]
+  },
+  "serpx_link": "https://serpx.link/itnaked-downloader",
+  "github_topics": [
+    "itnaked-download",
+    "itnaked-downloader",
+    "itnaked-video-downloader",
+    "itnaked-video-downloader-online",
+    "itnaked-video-downloader-mac",
+    "itnaked-video-downloader-window",
+    "itnaked-video-downloader-free",
+    "itnaked-video-downloader-extension",
+    "itnaked-video-downloader-app",
+    "itnaked-video-downloader-chrome",
+    "itnaked-video-downloader-from-url",
+    "how-to-download-itnaked-videos",
+    "how-to-download-itnaked-videos-mac",
+    "how-to-download-itnaked-videos-windows",
+    "how-to-download-itnaked-videos-online",
+    "how-to-download-itnaked-videos-free",
+    "how-to-download-from-itnaked",
+    "how-to-download-videos-from-itnaked",
+    "download-itnaked-videos",
+    "itnaked-video-tutorial",
+    "save-itnaked-videos",
+    "itnaked-video-content-saver",
+    "how-to-download-itnaked-videos-for-free"
+  ],
+  "hashtags": [
+    "#ItnakedDownload",
+    "#ItnakedDownloader",
+    "#ItnakedVideoDownloader",
+    "#ItnakedVideoDownloaderOnline",
+    "#ItnakedVideoDownloaderMac",
+    "#ItnakedVideoDownloaderWindow",
+    "#ItnakedVideoDownloaderFree",
+    "#ItnakedVideoDownloaderExtension",
+    "#ItnakedVideoDownloaderApp",
+    "#ItnakedVideoDownloaderChrome",
+    "#ItnakedVideoDownloaderFromURL",
+    "#HowToDownloadItnakedVideos",
+    "#HowToDownloadItnakedVideosMac",
+    "#HowToDownloadItnakedVideosWindows",
+    "#HowToDownloadItnakedVideosOnline",
+    "#HowToDownloadItnakedVideosFree",
+    "#HowToDownloadFromItnaked",
+    "#HowToDownloadVideosFromItnaked",
+    "#DownloadItnakedVideos",
+    "#ItnakedVideoTutorial",
+    "#SaveItnakedVideos",
+    "#ItnakedVideoContentSaver",
+    "#HowToDownloadItnakedVideosForFree"
+  ],
+  "youtube_tags": [
+    "Itnaked Download",
+    "Itnaked Downloader",
+    "Itnaked Video Downloader",
+    "Itnaked Video Downloader Online",
+    "Itnaked Video Downloader Mac",
+    "Itnaked Video Downloader Window",
+    "Itnaked Video Downloader Free",
+    "Itnaked Video Downloader Extension",
+    "Itnaked Video Downloader App",
+    "Itnaked Video Downloader Chrome",
+    "Itnaked Video Downloader From URL",
+    "How To Download Itnaked Videos",
+    "How To Download Itnaked Videos Mac",
+    "How To Download Itnaked Videos Windows",
+    "How To Download Itnaked Videos Online",
+    "How To Download Itnaked Videos Free",
+    "How To Download From Itnaked",
+    "How To Download Videos From Itnaked",
+    "Download Itnaked Videos",
+    "Itnaked Video Tutorial",
+    "Save Itnaked Videos",
+    "Itnaked Video Content Saver",
+    "How To Download Itnaked Videos For Free"
+  ]
+}
